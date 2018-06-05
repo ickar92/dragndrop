@@ -1,0 +1,22 @@
+body {
+  background: darksalmon;
+}
+
+.empty {
+  width: 160px;
+  height: 160px;
+  display: inline-block;
+  margin: 10px;
+  border: 3px solid salmon;
+  background-color: white;
+}
+
+.fill {
+  width: 150px;
+  height: 150px;
+  background-image: url('http://source.unsplash.com/random/150x150');
+  position: relative;
+  top: 5px;
+  left: 5px;
+  cursor: pointer;
+}
